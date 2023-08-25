@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&display=swap');
+
+body {
+	background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif, 'Caveat', cursive;
+}
+.container{
+	height: 50vh;
+	border: 10px solid gray;
+}
+.container2{
+    padding-top: 35px;
+	text-align: center;
+}
+.mempelai {
+    width: 100%;
+}
+.kolom1{
+    width: 45%;
+}
+.kolom1 img {
+    float: right;
+}
+.kolom2{
+    width: 10%;
+}
+.kolom2 i{
+    font-size: 45px;
+}
+.kolom3{
+    width: 45%;
+}
+.kolom3 img {
+    float: left;
+}
+
+.mempelai img{
+    border-radius: 50%;
+}
+.rata-kiri {
+    text-align: left;
+}
+.rata-kanan {
+    text-align: right;
+}
+
+.container3{
+    background-color: #F4ABC4;
+    padding-top: 35px;
+    text-align: center;
+    height: 750px;
+}
+.container3 h2 {
+    color: #343557;
+}
+.box {
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+    padding: 28px;
+    text-align: center;
+    border: 4px solid #070a31;
+    border-radius: 6%;
+}
+.box table {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box table td {
+    width: 250px;
+}
+.box table i {
+    color: #070a31;
+    font-size: 40px;
+}
+.box table p {
+    color: #343557;
+}
+.box  p {
+    color: #343557;
+}
+.btn{
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	padding: 8px;
+	width: 160px;
+	cursor: pointer;
+	color: #FFE8E8;
+	background-color: #FF9292;
+}
+.btn:hover{
+	background-color: #FFB4B4;
+}
+.container4{
+    padding-top: 35px;
+	text-align: center;
+    height: 750px;
+}
+.container5{
+    background-color: #F4ABC4;
+    padding-top: 35px;
+    text-align: center;
+    height: 750px;
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tika & Rezal Wedding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Staatliches&family=Work+Sans:wght@100;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css "href="{{url_for('static', filename='css/style.css')}}">
+
+    <!-- Java Script-->
+    <link rel="stylesheet" type="text/css "href="{{url_for('static', filename='css/simplyCountdown.theme.default.css')}}"/>
+    <script src="{{url_for('static', filename='js/simplyCountdown.min.js')}}"></script>
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  </head>
+  <body>
+    <section id="hero" class="hero w-100 h-100 p-3 mx-au text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <p>Kepada Bapak/Ibu/Saudara/i</p>
+            <h4>{{user}} </h4>
+            <p>Tanpa mengurangi rasa hormat, kami</p>
+            <p>Mengundang Anda Untuk Menghadiri Acara Pernikahan Kami</p>
+            <a href="/undangandigital/" class="btn btn-lg mt-4"> Lihat Undangan</a>
+        </main>
+    </section>
+  </body>
+</html>
